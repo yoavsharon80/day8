@@ -8,7 +8,7 @@ agent any
         }
         stage('build') {
             steps {
-                sh 'python Git_test.py'
+                sh 'python 2nd_file_new.py'
             }
         }
     }
